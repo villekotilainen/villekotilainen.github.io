@@ -1,29 +1,48 @@
-body {
-    background-color: #121212;
+html {
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; 
+    width: auto;
+    height: 100%;
+}
+div#logo {
     text-align: center;
+    width: auto;
+    height: auto;
 }
-h1, h2, h3, h4, h5, h6
-{
-    font-size: xx-large;
-color: whitesmoke;
-font-variant: small-caps;
-text-transform: none;
-font-weight: 200;
-margin-bottom: 0px
-
+.text {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
-p, p1, p2, p3, p4, p5, p6
-{font-size: large;
-color: whitesmoke;
-font-variant: small-caps;
-text-transform: none;
-font-weight: 200;
-margin-bottom: 0px;
+.otsikko {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
 }
-h1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+#header {
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
-img {
-    padding-top: 50px;
+.nappi {
+    text-align: center;
+    background-color: #000;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    transition-duration: 0,8s;
+    float: none;
+    border: 2px solid whitesmoke;
+    width: 18%;
+    margin: auto;
+    text-decoration: none; 
+}
+.nappi:hover {
+    color: red;
+    border: 2px solid red;
 }
