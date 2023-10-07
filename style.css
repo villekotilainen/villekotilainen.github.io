@@ -1,18 +1,13 @@
 html {
     background-image: url(background.png);
     background-repeat: no-repeat;
-<<<<<<< HEAD
     background-attachment: fixed;
-=======
-    background-attachment: scroll;
->>>>>>> 6d75263861f771c7d9716e0f1b01cb930b47ee7e
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -moz-background-size: cover;
     background-size: cover; 
     width: auto;
     height: 100%;
-<<<<<<< HEAD
 }
 .logo-box {
     display: block;
@@ -45,33 +40,11 @@ html {
 .nappi {
     min-width: 16%;
     height: auto;
-=======
-}
-div#logo {
-    text-align: center;
-    width: auto;
-    height: auto;
-}
-.text {
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-}
-.otsikko {
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-}
-#header {
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
-}
-.nappi {
->>>>>>> 6d75263861f771c7d9716e0f1b01cb930b47ee7e
     text-align: center;
     background-color: #000;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding: 15px 15px;
-<<<<<<< HEAD
     font-size: 3vw;
     cursor: pointer;
     transition-duration: 0,8s;
@@ -100,21 +73,3 @@ div#logo {
     margin: auto;
 }
 }
-
-
-=======
-    display: inline-block;
-    font-size: 30px;
-    cursor: pointer;
-    transition-duration: 0,8s;
-    float: none;
-    border: 2px solid whitesmoke;
-    width: 18%;
-    margin: auto;
-    text-decoration: none; 
-}
-.nappi:hover {
-    color: red;
-    border: 2px solid red;
-}
->>>>>>> 6d75263861f771c7d9716e0f1b01cb930b47ee7e
