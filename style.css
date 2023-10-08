@@ -20,15 +20,16 @@ html {
 .text {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-shadow: 2px 2px black;
     padding-top: 2%;
+    max-width: 40%;
 }
 .header {
     text-align: center;
     color: whitesmoke;
     text-shadow: 3px 3px 5px black;
-    padding-top: 10%;
+    padding-top: 7%;
     font-size: 4vw;
 }
 .indexsis {
@@ -65,7 +66,13 @@ html {
     width: 10vw;
     height: auto;
 }
-@media (max-width: 1370px) {
+.pic {
+    width: 30vw;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media (max-width: 1450px) {
 .nappi {
     float: none;
     display: block;
@@ -73,3 +80,37 @@ html {
     margin: auto;
 }
 }
+@media (max-width: 800px) {
+    .text {
+        font-size: 5vw;
+    }
+    .header {
+        font-size: 6vw;
+    }
+    .social {
+        width: 20vw;
+    }
+}
+div.gallery {
+    margin: 2vw;
+    border: 1px solid #ccc;
+    float: left;
+    width: 40vw;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid red;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #000;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+  }
