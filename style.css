@@ -114,3 +114,22 @@ div.gallery {
     color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
   }
+  .tour {
+        color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2vw;
+        text-shadow: 2px 2px black;
+        padding-top: 2%;
+        padding-bottom: 15%;
+  }
+  .grid-container {
+    gap: 70%;
+    display: inline-grid;
+    width: 50%;
+    row-gap: 5%;
+    grid-template-columns: 30% 30%;
+    padding-bottom: 20%;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
